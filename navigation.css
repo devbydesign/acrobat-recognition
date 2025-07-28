@@ -2,7 +2,7 @@
 :root {
   --primary-color: #93d4f0; /* PromoMonster Green */
   --secondary-color: #000000; /* Black */
-  --brand-orange: #93d4f0; /* Alias for primary color */
+  --brand-orange: #f26615; /* Orange accent color */
 }
 
 /* Fix navigation menu height issue and center alignment - 20% smaller */
