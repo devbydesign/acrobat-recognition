@@ -93,9 +93,9 @@ nav ul li a {
   padding: 0.7rem 1rem !important;
   font-size: 0.95rem !important;
   line-height: 1.4 !important;
-  white-space: nowrap;
+/*   white-space: nowrap; */
   overflow: hidden;
-  text-overflow: ellipsis;
+/*   text-overflow: ellipsis; */
   text-align: center !important;
 }
 
