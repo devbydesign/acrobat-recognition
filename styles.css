@@ -2235,6 +2235,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   gap: 1rem;
   margin-bottom: 1rem;
   color: var(--primary-color);
+  color: black; /* blue was too light */
   font-size: 1.5rem;
 }
 
