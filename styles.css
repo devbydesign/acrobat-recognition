@@ -1207,7 +1207,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   bottom: 2rem;
   right: 2rem;
   z-index: 9999;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: var(--light-color);
   padding: 1.25rem 1.875rem; /* Increased padding */
   border-radius: 50px; /* Pill shape */
@@ -1222,8 +1222,8 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 .sticky-cta:hover {
   transform: translateY(-3px) scale(1.05);
-  background-color: var(--secondary-color);
-  color: var(--light-color);
+  background-color: var(--light-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -2741,8 +2741,8 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 .resources-sticky-cta:hover {
   transform: translateY(-3px) scale(1.05);
   background-color: var(--light-color);
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .resources-sticky-cta i {
