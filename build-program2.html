@@ -303,8 +303,13 @@
     /* Style the Recognition Program Features title */
     .program-features-content h2 {
       color: #444 !important;
-      text-align: left !important;
+      text-align: left;
       font-size: calc(2.5rem - 0.25rem) !important; /* 0.25rem smaller */
+    }
+    @media (max-width: 1200px) {
+      .program-features-content h2 {
+            text-align: center;
+      }
     }
     
     /* Left align the subtitle text */
