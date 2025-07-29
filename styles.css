@@ -1534,7 +1534,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 /* --- Build Your Program Page Styles --- */
 
 .program-builder-section {
-  padding: 3rem 0;
+  padding: 2rem 0;
   border-bottom: 1px solid var(--medium-color);
 }
 
