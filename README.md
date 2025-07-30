@@ -13,3 +13,4 @@ Steps to set up a new recognition website:
 8. Replace - or check that it was replaced - the contact info on the review page.
 9. Edit the navigation.js file and remove one Builder link and remove the '2' from the menu link name if needed.
 10. Check that the values sent through to emailjs have been replaced in this file: ______
+11. Change the browse ideas on the Overview page and the Explore our solutions ot the right website and page link.
