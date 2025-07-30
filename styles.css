@@ -2200,13 +2200,13 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 /* Maintain grid spacing */
 .detailed-modules-grid {
-  padding: 2rem;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f8f9fb;
+  background-color: #fff;
   border-radius: 12px;
 }
 
@@ -2214,6 +2214,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   background: white;
   padding: 2rem;
   border-radius: 10px;
+  border: 2px solid #f6f6f6;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
