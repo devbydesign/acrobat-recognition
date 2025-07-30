@@ -11,7 +11,7 @@
   --success-color: #93d4f0; /* RBB Marketing Blue for checkmarks etc. */
   --border-radius: 6px;
   --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --font-secondary: 'Georgia', serif; /* For select headings or accents */
+  --font-secondary: Helvetica, Arial, sans-serif; /* For select headings or accents */
   --transition-speed: 0.3s;
   --section-padding: 4rem 0;
 }
