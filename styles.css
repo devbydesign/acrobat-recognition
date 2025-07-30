@@ -1932,8 +1932,10 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 }
 
 #plan-details-form {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 950px; /* this width is only for desktop so increased it from 800 */
+/*   margin: 0 auto; */
+/*   katria changing htis for builder 2 */
+  margin: 0;
   background-color: var(--light-color);
   padding: 2rem;
   border-radius: var(--border-radius);
