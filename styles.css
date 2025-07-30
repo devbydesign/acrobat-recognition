@@ -1932,7 +1932,8 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 
 #plan-details-form {
   max-width: 800px;
-  margin: 0 auto;
+/*   margin: 0 auto; */
+  margin: 0; /* katria added to fix builder 2 - might need to adjust builder 1 after this if needed, but this is only on ab site */
   background-color: var(--light-color);
   padding: 2rem;
   border-radius: var(--border-radius);
