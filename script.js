@@ -1546,7 +1546,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const subject = `Program Plan Submission from ${firstName} ${lastName}`;
         const body = `New Program Plan Request:\n\nSelected Modules:\n- ${selectedModuleNames.join('\n- ')}\n\nContact Information:\nName: ${firstName} ${lastName}\nCompany: ${companyName}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}`;
-        const mailtoLink = `mailto:craig.peck@acrobatbranding.com,theresa@stayvisible.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:sales@acrobatbranding.com,Katria.Lesser@webdevbydesign.com,rbadiner@rbbmarketing.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         setTimeout(() => {
             window.location.href = mailtoLink;
