@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #93d4f0; /* RBB Marketing Blue */
+  --primary-color: #66BFE5; /* RBB Marketing Blue */
   --secondary-color: #000000; /* Black */
   --accent-color: #f26615; /* Energetic Yellow */
-  --brand-green: #93d4f0; /* Brand Green */
+  --brand-green: #66BFE5; /* Brand Green */
   --brand-orange: #f26615; /* Alias for primary color to fix existing references */
   --dark-color: #000000; /* Black for text */
   --light-color: #ffffff; /* White background */
   --medium-color: #f0f2f5; /* Light grey for backgrounds/borders */
   --text-muted: #666666; /* Muted text color */
-  --success-color: #93d4f0; /* RBB Marketing Blue for checkmarks etc. */
+  --success-color: #66BFE5; /* RBB Marketing Blue for checkmarks etc. */
   --border-radius: 6px;
   --font-primary: Helvetica, Arial, sans-serif;
   --font-secondary: Helvetica, Arial, sans-serif; /* For select headings or accents */
