@@ -1984,10 +1984,10 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>When employees feel recognized for safety contributions, it creates psychological safety that encourages open communication about risks. Teams with safety recognition show <span class="stat-highlight stat-tooltip">43% better safety communication<span class="tooltip-content">Source: Industrial Psychology Research</span></span> and <span class="stat-highlight stat-tooltip">31% faster hazard resolution times<span class="tooltip-content">Source: Industrial Psychology Research</span></span>, according to industrial psychology research.</p>
         `,
         products: [
-          { name: "Insulated Drinkware", image: "assets/images/InsulatedDrinkware.png" },
+          { name: "Insulated Drinkware", image: "assets/images/InsulatedDrinkware4.png" },
           { name: "Point System", image: "assets/images/Points.jpg" },
-          { name: "Lunch Cooler", image: "assets/images/LunchCooler.png" },
-          { name: "Team Tech Items", image: "assets/images/TechItems.png" }
+          { name: "Lunch Cooler", image: "assets/images/LunchCooler2.png" },
+          { name: "Team Tech Items", image: "assets/images/TechItems2.png.png" }
         ]
       },
       community: {
@@ -2009,7 +2009,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { name: "Unique Signage", image: "assets/images/Signage.png" },
           { name: "Fun Gifts", image: "assets/images/socks1.PNG" },
           { name: "Matching Apparel", image: "assets/images/Apparel3.png.png" },
-          { name: "Custom Drinkware", image: "assets/images/Drinkware2.png.png" }
+          { name: "Custom Drinkware", image: "assets/images/DrinkwareMug.png.png" }
         ]
       },
 
@@ -2030,10 +2030,10 @@ document.addEventListener('DOMContentLoaded', function() {
           <p>From comfortable apparel for volunteer events to practical items that show appreciation, each recognition piece is designed to celebrate and encourage continued community involvement.</p>
         `,
         products: [
-          { name: "Blankets", image: "assets/images/Blankets.png.png" },
+          { name: "Blankets", image: "assets/images/Customized Merchandise.png" },
           { name: "Apparel", image: "assets/images/Apparel.png" },
-          { name: "Sling Bag", image: "assets/images/SlingBag2.png" },
-          { name: "Insulated Drinkware", image: "assets/images/InsulatedDrinkware.png" }
+          { name: "Sling Bag", image: "assets/images/SlingBackpacks.png" },
+          { name: "Insulated Drinkware", image: "assets/images/Drinkware3.png" }
         ]
       },
       custom: {
