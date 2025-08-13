@@ -31,7 +31,7 @@ const footerHTML = `
       </div>
     </div>
     <div class="container copyright">
-      <p>&copy; <span id="current-year"></span> Acrobat Branding. All rights reserved.</p>
+      <p>Website created by RBB Marketing. All rights reserved.</p>
     </div>
   </footer>
 `;
