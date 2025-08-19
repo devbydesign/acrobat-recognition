@@ -2566,7 +2566,13 @@
           contactSection.style.display = 'block';
           generateCaptcha();
           populateFormFeatures();
-          contactSection.scrollIntoView({ behavior: 'smooth' });
+          // Scroll a bit further to ensure the full form is visible
+          requestAnimationFrame(() => {
+            const rect = contactSection.getBoundingClientRect();
+            const extraOffset = Math.round(window.innerHeight * -0.03);
+            const y = rect.top + window.scrollY + extraOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          });
         }
       });
 
@@ -2807,7 +2813,7 @@
           { name: "Complete Kit", image: "assets/images/BrandMErchandise2.png" }
         ],
         customizeProducts: [
-          { name: "Clothing Bundle", image: "assets/images/clothes1.PNG" },
+          { name: "Clothing Bundle", image: "assets/images/ClothingBundle2.png" },
           { name: "Custom Bundle", image: "assets/images/bundle1.PNG" },
                       { name: "Custom Kit", image: "assets/images/kit2.PNG" },
           { name: "Custom Gift Box", image: "assets/images/bundle3.PNG" },
